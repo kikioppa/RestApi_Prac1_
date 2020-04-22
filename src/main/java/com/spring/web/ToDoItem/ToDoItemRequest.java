@@ -4,7 +4,8 @@ import lombok.*;
 
 @Getter
 @Setter
-@Builder
+@NoArgsConstructor
+//@builder doen't working on eclipes *does on IntelliJ
 public class ToDoItemRequest {
 
 private String id;
